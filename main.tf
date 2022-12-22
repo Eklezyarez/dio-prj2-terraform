@@ -1,5 +1,5 @@
 provider "google" {
-  project = "barbero-devops-ia"
+  project = "barbero-devops-i"
   region  = "us-central1"
   zone    = "us-central1-c"
   credentials = "${file("serviceaccount.yaml")}"
